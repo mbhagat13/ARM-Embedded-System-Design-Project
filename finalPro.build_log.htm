@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+S:\coe718\Project\finalPro.uvproj
+Project File Date:  11/25/2019
+
+<h2>Output:</h2>
+Rebuild target 'LPC1700'
+assembling startup_LPC17xx.s...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling system_LPC17xx.c...
+compiling KBD.c...
+KBD.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif 
+KBD.c(51): warning:  #1-D: last line of file ends without a newline
+  } 
+KBD.c: 2 warnings, 0 errors
+compiling logo1.c...
+logo1.c(7): warning:  #177-D: variable "logo1" was declared but never referenced
+  static const unsigned char logo1[220 * 124 * 2 + 1] =
+logo1.c: 1 warning, 0 errors
+compiling logo2.c...
+logo2.c(7): warning:  #177-D: variable "logo2" was declared but never referenced
+  static const unsigned char logo2[240 * 135 * 2 + 1] =
+logo2.c: 1 warning, 0 errors
+compiling logo3.c...
+logo3.c(7): warning:  #177-D: variable "logo3" was declared but never referenced
+  static const unsigned char logo3[220 * 124 * 2 + 1] =
+logo3.c: 1 warning, 0 errors
+compiling main.c...
+KBD.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif 
+logo2.c(3): warning:  #47-D: incompatible redefinition of macro "GIMP_IMAGE_WIDTH" (declared at line 3 of "logo1.c")
+  #define GIMP_IMAGE_WIDTH (240)
+logo2.c(4): warning:  #47-D: incompatible redefinition of macro "GIMP_IMAGE_HEIGHT" (declared at line 4 of "logo1.c")
+  #define GIMP_IMAGE_HEIGHT (135)
+logo2.c(6): warning:  #47-D: incompatible redefinition of macro "GIMP_IMAGE_PIXEL_DATA" (declared at line 6 of "logo1.c")
+  #define GIMP_IMAGE_PIXEL_DATA ((unsigned char*) logo2)
+snake_food.c(3): warning:  #47-D: incompatible redefinition of macro "GIMP_IMAGE_WIDTH" (declared at line 3 of "logo2.c")
+  #define GIMP_IMAGE_WIDTH (10)
+snake_food.c(4): warning:  #47-D: incompatible redefinition of macro "GIMP_IMAGE_HEIGHT" (declared at line 4 of "logo2.c")
+  #define GIMP_IMAGE_HEIGHT (10)
+snake_food.c(6): warning:  #47-D: incompatible redefinition of macro "GIMP_IMAGE_PIXEL_DATA" (declared at line 6 of "logo2.c")
+  #define GIMP_IMAGE_PIXEL_DATA ((unsigned char*) snake_food_img)
+main.c(240): warning:  #177-D: variable "x" was declared but never referenced
+                int x=50, y=50, x_next = 10 ,y_next = 0;
+main.c(240): warning:  #177-D: variable "y" was declared but never referenced
+                int x=50, y=50, x_next = 10 ,y_next = 0;
+main.c(240): warning:  #177-D: variable "x_next" was declared but never referenced
+                int x=50, y=50, x_next = 10 ,y_next = 0;
+main.c(240): warning:  #177-D: variable "y_next" was declared but never referenced
+                int x=50, y=50, x_next = 10 ,y_next = 0;
+main.c(241): warning:  #177-D: variable "snake_size_tail" was declared but never referenced
+                int snake_size_tail = 3;
+main.c(242): warning:  #177-D: variable "food_x" was declared but never referenced
+                int food_x =0, food_y=0;
+main.c(242): warning:  #177-D: variable "food_y" was declared but never referenced
+                int food_x =0, food_y=0;
+main.c(243): warning:  #177-D: variable "i" was declared but never referenced
+                int i =0, x_prev=0,y_prev=0;
+main.c(243): warning:  #177-D: variable "x_prev" was declared but never referenced
+                int i =0, x_prev=0,y_prev=0;
+main.c(243): warning:  #177-D: variable "y_prev" was declared but never referenced
+                int i =0, x_prev=0,y_prev=0;
+main.c(244): warning:  #177-D: variable "flag" was declared but never referenced
+                int flag = 0;
+main.c(245): warning:  #177-D: variable "th" was declared but never referenced
+                int s =0, th =0;
+main.c(249): warning:  #177-D: variable "tail_coordinate_x" was declared but never referenced
+                int tail_coordinate_x[MAX_LENGTH];
+main.c(250): warning:  #177-D: variable "tail_coordinate_y" was declared but never referenced
+                int tail_coordinate_y[MAX_LENGTH];
+main.c(251): warning:  #177-D: variable "speed" was declared but never referenced
+                int speed =70;
+main.c(281): warning:  #177-D: variable "welcome_count" was declared but never referenced
+        int welcome_count =0;
+main.c: 23 warnings, 0 errors
+compiling play_icon.c...
+play_icon.c(7): warning:  #177-D: variable "PLAY_ICON_pixel_data" was declared but never referenced
+  static const unsigned char PLAY_ICON_pixel_data[150 * 145 * 2 + 1] =
+play_icon.c: 1 warning, 0 errors
+compiling adcuser.c...
+compiling core_cm3.c...
+compiling usbcore.c...
+compiling usbdesc.c...
+compiling usbdmain.c...
+KBD.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif 
+usbdmain.c(180): warning:  #940-D: missing return statement at end of non-void function "music_init"
+  }
+usbdmain.c: 2 warnings, 0 errors
+compiling usbhw.c...
+compiling usbuser.c...
+compiling snake_food.c...
+snake_food.c(7): warning:  #177-D: variable "snake_food_img" was declared but never referenced
+  static const unsigned char snake_food_img[10 * 10 * 2 + 1] =
+snake_food.c: 1 warning, 0 errors
+compiling snake_skin.c...
+snake_skin.c(7): warning:  #177-D: variable "snake_skin_img" was declared but never referenced
+  static const unsigned char snake_skin_img[10 * 10 * 2 + 1] =
+snake_skin.c: 1 warning, 0 errors
+compiling Black_End.c...
+Black_End.c(7): warning:  #177-D: variable "BLACK_END_pixel_data" was declared but never referenced
+  static const unsigned char BLACK_END_pixel_data[10 * 10 * 2 + 1] =
+Black_End.c: 1 warning, 0 errors
+compiling Main_Logo.c...
+Main_Logo.c(7): warning:  #177-D: variable "MAIN_LOGO_pixel_data" was declared but never referenced
+  static const unsigned char MAIN_LOGO_pixel_data[200 * 178 * 2 + 1] =
+Main_Logo.c: 1 warning, 0 errors
+linking...
+Program Size: Code=13036 RO-data=296044 RW-data=116 ZI-data=1572  
+".\finalPro.axf" - 0 Error(s), 35 Warning(s).
+Load "S:\\coe718\\Project\\finalPro.axf" 
+Internal DLL Error
+Error: Flash Download failed  -  Target DLL has been cancelled
+Load "S:\\coe718\\Project\\finalPro.axf" 
+Erase Done.
+Programming Done.
+Verify OK.

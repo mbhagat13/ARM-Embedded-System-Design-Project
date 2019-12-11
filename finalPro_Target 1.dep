@@ -1,0 +1,52 @@
+Dependencies for Project 'finalPro', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x532C8DE0)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\GLCD_SPI_LPC1700.c)(0x5087E70E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\glcd_spi_lpc1700.o --omf_browse .\glcd_spi_lpc1700.crf --depend .\glcd_spi_lpc1700.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x532C8EBC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C9272)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C9272)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C9272)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C8EBC)
+I (GLCD.h)(0x5087E70E)
+I (Font_6x8_h.h)(0x5087E70E)
+I (Font_16x24_h.h)(0x5087E70E)
+F (.\LED.c)(0x52B21550)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C8EBC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C9272)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C9272)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C9272)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C8EBC)
+I (LED.h)(0x5087E70E)
+F (.\system_LPC17xx.c)(0x5087E70E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x532C8EBC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C9272)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C9272)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C9272)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C8EBC)
+F (.\KBD.c)(0x5D7FB0BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\kbd.o --omf_browse .\kbd.crf --depend .\kbd.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C8EBC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C9272)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C9272)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C9272)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C8EBC)
+I (KBD.h)(0x5D7FB0BC)
+F (.\logo1.c)(0x5DC47424)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\logo1.o --omf_browse .\logo1.crf --depend .\logo1.d)
+F (.\logo2.c)(0x5DC4740B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\logo2.o --omf_browse .\logo2.crf --depend .\logo2.d)
+F (.\logo3.c)(0x5DC4743B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\logo3.o --omf_browse .\logo3.crf --depend .\logo3.d)
+F (.\main.c)(0x5DC9ABCB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C8EBC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C9272)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C9272)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C9272)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C8EBC)
+I (GLCD.h)(0x5087E70E)
+I (LED.h)(0x5087E70E)
+I (KBD.h)(0x5D7FB0BC)
+I (logo1.c)(0x5DC47424)
+I (logo2.c)(0x5DC4740B)
+I (logo3.c)(0x5DC4743B)

@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\glcd_spi_lpc1700.o"
+".\led.o"
+".\system_lpc17xx.o"
+".\kbd.o"
+".\logo1.o"
+".\logo2.o"
+".\logo3.o"
+".\main.o"
+".\play_icon.o"
+".\adcuser.o"
+".\core_cm3.o"
+".\usbcore.o"
+".\usbdesc.o"
+".\usbdmain.o"
+".\usbhw.o"
+".\usbuser.o"
+".\snake_food.o"
+".\snake_skin.o"
+".\black_end.o"
+".\main_logo.o"
+--strict --scatter ".\finalPro.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\finalPro.map" -o .\finalPro.axf

@@ -1,0 +1,119 @@
+Dependencies for Project 'finalPro', Target 'LPC1700': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x532C8DE0)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\GLCD_SPI_LPC1700.c)(0x5087E70E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\glcd_spi_lpc1700.o --omf_browse .\glcd_spi_lpc1700.crf --depend .\glcd_spi_lpc1700.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x532C8EBC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C9272)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C9272)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C9272)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C8EBC)
+I (GLCD.h)(0x5087E70E)
+I (Font_6x8_h.h)(0x5087E70E)
+I (Font_16x24_h.h)(0x5087E70E)
+F (.\LED.c)(0x52B21550)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (LPC17xx.H)(0x4F47CD02)
+I (core_cm3.h)(0x4D251A7C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (system_LPC17xx.h)(0x537C9588)
+I (LED.h)(0x5087E70E)
+F (.\system_LPC17xx.c)(0x5DCD82C7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (LPC17xx.h)(0x4F47CD02)
+I (core_cm3.h)(0x4D251A7C)
+I (system_LPC17xx.h)(0x537C9588)
+F (.\KBD.c)(0x5D7FB0BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\kbd.o --omf_browse .\kbd.crf --depend .\kbd.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x532C8EBC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C9272)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C9272)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C9272)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x532C8EBC)
+I (KBD.h)(0x5D7FB0BC)
+F (.\logo1.c)(0x5DC47424)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\logo1.o --omf_browse .\logo1.crf --depend .\logo1.d)
+F (.\logo2.c)(0x5DC4740B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\logo2.o --omf_browse .\logo2.crf --depend .\logo2.d)
+F (.\logo3.c)(0x5DC4743B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\logo3.o --omf_browse .\logo3.crf --depend .\logo3.d)
+F (.\main.c)(0x5DDFEADE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C86004)
+I (LPC17xx.H)(0x4F47CD02)
+I (core_cm3.h)(0x4D251A7C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (system_LPC17xx.h)(0x537C9588)
+I (GLCD.h)(0x5087E70E)
+I (LED.h)(0x5087E70E)
+I (KBD.h)(0x5D7FB0BC)
+I (logo1.c)(0x5DC47424)
+I (logo2.c)(0x5DC4740B)
+I (logo3.c)(0x5DC4743B)
+I (play_icon.c)(0x5DCD77FF)
+I (Main_Logo.c)(0x5DDC18D1)
+I (snake_food.c)(0x5DD6B44C)
+I (snake_skin.c)(0x5DD6B44C)
+I (Black_End.c)(0x5DDC18CF)
+F (.\play_icon.c)(0x5DCD77FF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\play_icon.o --omf_browse .\play_icon.crf --depend .\play_icon.d)
+F (.\adcuser.c)(0x51800314)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\adcuser.o --omf_browse .\adcuser.crf --depend .\adcuser.d)
+I (type.h)(0x4D251A7C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (usb.h)(0x51800314)
+I (audio.h)(0x51800314)
+I (usbcfg.h)(0x51800314)
+I (usbcore.h)(0x51800314)
+I (adcuser.h)(0x51800314)
+I (usbaudio.h)(0x51800314)
+F (.\core_cm3.c)(0x4D251A7C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+F (.\usbcore.c)(0x51800314)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\usbcore.o --omf_browse .\usbcore.crf --depend .\usbcore.d)
+I (type.h)(0x4D251A7C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (usb.h)(0x51800314)
+I (usbcfg.h)(0x51800314)
+I (usbhw.h)(0x51800314)
+I (usbcore.h)(0x51800314)
+I (usbdesc.h)(0x51800314)
+I (usbuser.h)(0x51800314)
+I (audio.h)(0x51800314)
+I (adcuser.h)(0x51800314)
+F (.\usbdesc.c)(0x51800314)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\usbdesc.o --omf_browse .\usbdesc.crf --depend .\usbdesc.d)
+I (type.h)(0x4D251A7C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (usb.h)(0x51800314)
+I (audio.h)(0x51800314)
+I (usbcfg.h)(0x51800314)
+I (usbdesc.h)(0x51800314)
+F (.\usbdmain.c)(0x5DDC6CFA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\usbdmain.o --omf_browse .\usbdmain.crf --depend .\usbdmain.d)
+I (LPC17xx.h)(0x4F47CD02)
+I (core_cm3.h)(0x4D251A7C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (system_LPC17xx.h)(0x537C9588)
+I (type.h)(0x4D251A7C)
+I (KBD.h)(0x5D7FB0BC)
+I (usb.h)(0x51800314)
+I (usbcfg.h)(0x51800314)
+I (usbhw.h)(0x51800314)
+I (usbcore.h)(0x51800314)
+I (usbaudio.h)(0x51800314)
+F (.\usbhw.c)(0x5DC1F276)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\usbhw.o --omf_browse .\usbhw.crf --depend .\usbhw.d)
+I (LPC17xx.h)(0x4F47CD02)
+I (core_cm3.h)(0x4D251A7C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (system_LPC17xx.h)(0x537C9588)
+I (type.h)(0x4D251A7C)
+I (usb.h)(0x51800314)
+I (usbcfg.h)(0x51800314)
+I (usbreg.h)(0x51800314)
+I (usbhw.h)(0x51800314)
+I (usbcore.h)(0x51800314)
+I (usbuser.h)(0x51800314)
+F (.\usbuser.c)(0x51800314)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\usbuser.o --omf_browse .\usbuser.crf --depend .\usbuser.d)
+I (type.h)(0x4D251A7C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (usb.h)(0x51800314)
+I (usbcfg.h)(0x51800314)
+I (usbhw.h)(0x51800314)
+I (usbcore.h)(0x51800314)
+I (usbuser.h)(0x51800314)
+I (usbaudio.h)(0x51800314)
+F (.\snake_food.c)(0x5DD6B44C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\snake_food.o --omf_browse .\snake_food.crf --depend .\snake_food.d)
+F (.\snake_skin.c)(0x5DD6B44C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\snake_skin.o --omf_browse .\snake_skin.crf --depend .\snake_skin.d)
+F (.\Black_End.c)(0x5DDC18CF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\black_end.o --omf_browse .\black_end.crf --depend .\black_end.d)
+F (.\Main_Logo.c)(0x5DDC18D1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\main_logo.o --omf_browse .\main_logo.crf --depend .\main_logo.d)
